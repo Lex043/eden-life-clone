@@ -9,6 +9,7 @@
       <img className="w-20" :src="buycoins" alt="buycoins" />
       <img className="w-20" :src="piggyvest" alt="piggyvest" />
     </figure>
+    <CustomerReview />
   </section>
 </template>
 
@@ -19,4 +20,5 @@ import paystack from "../assets/paystack_zez4ir.svg";
 import kuda from "../assets/kuda_irz12h.svg";
 import buycoins from "../assets/buycoins_bkcrvh.svg";
 import piggyvest from "../assets/piggyvest_wyio8s.svg";
+import CustomerReview from "./CustomerReview.vue";
 </script>
