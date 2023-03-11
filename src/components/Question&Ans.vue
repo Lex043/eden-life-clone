@@ -1,5 +1,5 @@
 <template>
-  <section className="bg-[#f6fffa] px-4 pb-40">
+  <section className="bg-[#f6fffa] px-4">
     <h1 className="font-ptserif text-center text-3xl font-semibold py-20">
       You have questions? <br />
       We have answers.
@@ -162,10 +162,12 @@
         </p>
       </article>
     </div>
+    <Location />
   </section>
 </template>
 
 <script setup lang="ts">
 import MinusSvg from "./MinusSvg.vue";
 import PlusSvg from "./PlusSvg.vue";
+import Location from "./Location.vue";
 </script>

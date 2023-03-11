@@ -7,6 +7,7 @@
     <WhyEden />
     <WallOFEden />
     <QuestionAns />
+    <Press />
   </main>
 </template>
 
@@ -18,4 +19,5 @@ import Services from "./components/Services.vue";
 import WhyEden from "./components/WhyEden.vue";
 import WallOFEden from "./components/WallOFEden.vue";
 import QuestionAns from "./components/Question&Ans.vue";
+import Press from "./components/Press.vue";
 </script>
