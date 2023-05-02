@@ -8,6 +8,8 @@
     <WallOFEden />
     <QuestionAns />
     <Press />
+    <GetApp />
+    <FirstFooter />
   </main>
 </template>
 
@@ -20,4 +22,6 @@ import WhyEden from "./components/WhyEden.vue";
 import WallOFEden from "./components/WallOFEden.vue";
 import QuestionAns from "./components/Question&Ans.vue";
 import Press from "./components/Press.vue";
+import GetApp from "./components/GetApp.vue";
+import FirstFooter from "./components/FirstFooter.vue";
 </script>
