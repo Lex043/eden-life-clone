@@ -1,7 +1,9 @@
 <template>
   <section className="bg-[#f7f8fe]">
     <h1 className="text-3xl font-semibold text-center py-9">The Wall of 💚</h1>
-    <figure className="grid grid-cols-3 px-4 gap-6 py-10 justify-center">
+    <figure
+      className="grid grid-cols-3 px-4 gap-6 py-10 justify-center md:place-items-center md:w-[50%] md:mx-auto"
+    >
       <img className="w-20" :src="cowrywise" alt="cowrywise" />
       <img className="w-20" :src="flutterwave" alt="flutterwave" />
       <img className="w-20" :src="paystack" alt="paystack" />

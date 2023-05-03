@@ -1,15 +1,17 @@
 <template>
-  <section className="bg-[#fffcfa] pt-14 px-4">
-    <h1 className="font-semibold font-ptserif text-2xl text-center px-8">
+  <section className="bg-[#fffcfa] pt-14 px-4 md:px-0">
+    <h1
+      className="font-semibold font-ptserif text-2xl text-center px-8 md:mb-16"
+    >
       Check us out in the press.
     </h1>
     <figure
-      className="flex gap-14 justify-center items-center flex-wrap mt-5 mb-20"
+      className="flex gap-14 justify-center items-center flex-wrap mt-5 mb-20 md:gap-x-32 md:px-0"
     >
-      <img :src="futureAfrica" alt="future Africa" className="w-20" />
+      <img :src="futureAfrica" alt="future Africa" className="w-20 md:w-32" />
       <img :src="press" alt="press" className="w-10" />
-      <img :src="techcabal" alt="techcabal" className="w-20" />
-      <img :src="techpoint" alt="techpoint" className="w-20" />
+      <img :src="techcabal" alt="techcabal" className="w-20 md:w-32" />
+      <img :src="techpoint" alt="techpoint" className="w-20 md:w-32" />
     </figure>
   </section>
 </template>

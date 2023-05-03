@@ -1,6 +1,6 @@
 <template>
   <section className="pt-40 pb-20">
-    <header className="text-center">
+    <header className="text-center mb-4">
       <h1 className="font-semibold text-lg text-[#21312A]">Not in Lagos?</h1>
       <p className="text-[#21312A] text-[0.91rem] py-3">
         We're coming to your city. Be the first to know when we touch down.
@@ -57,7 +57,7 @@
         <option value="Zamfara">Zamfara</option>
       </select>
       <button
-        className="bg-[#03a84e] text-white w-full py-4 rounded-md font-semibold text-lg"
+        className="bg-[#03a84e] text-white w-full py-4 rounded-md font-semibold text-lg mt-2"
       >
         Send Message
       </button>

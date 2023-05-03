@@ -5,14 +5,14 @@
     </h1>
     <section>
       <div
-        className="roundeed-sm flex overflow-hidden justify-center items-center rounded-md mx-4 mb-14"
+        className="flex overflow-hidden justify-center items-center mx-4 mb-14 rounded-xl"
       >
         <iframe
           src="https://www.youtube.com/embed/iTI4xPCL8ys"
-          width="600"
           height="250"
           title="Eden in 2021"
           frameborder="0"
+          className="w-full"
         ></iframe>
       </div>
     </section>

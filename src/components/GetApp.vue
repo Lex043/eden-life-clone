@@ -3,7 +3,7 @@
     <img
       :src="footer_top_image"
       alt="footer top image"
-      className="w-[70%] mx-auto relative bottom-12"
+      className="w-[70%] mx-auto relative bottom-12 md:w-[200px]"
     />
     <div className="text-center  pb-8">
       <h1 className="text-4xl text-[#21312a] font-semibold">

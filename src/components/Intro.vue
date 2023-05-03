@@ -5,7 +5,7 @@
       housecleaning <br />
       forever
     </h1>
-    <div className="my-5 text-lg font-sans">
+    <div className="my-5 text-lg font-sans flex flex-col gap-2">
       <p>Chef-cooked meals: delivered fresh. ✔</p>
       <p>Laundry: picked up and delivered. ✔</p>
       <p>Home cleaning: executed by professional cleaners. ✔</p>
